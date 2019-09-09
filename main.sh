@@ -24,3 +24,5 @@ while [[ $i = "yes" ]]; do
     i="yes"
   fi
 done
+
+echo "Hello"
