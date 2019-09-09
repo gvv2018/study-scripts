@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-mypath=$(awk '/[0-2][0-9][0-9]\./{print $2}' myfile | sort -n -t "." -k 1 -k 2 -k 3 -k4)
+mypath=$(awk '/[0-2][0-9][0-9]\./{print $2}' files/myfile | sort -n -t "." -k 1 -k 2 -k 3 -k4)
 echo $mypath
 
 function newFuction {
